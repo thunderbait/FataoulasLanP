@@ -19,6 +19,7 @@ class CreateRestaurantsTable extends Migration
             $table->string('location');
             $table->bigInteger('phone');
             $table->string('food_type');
+            $table->string('images');
             $table->timestamps();
         });
     }
