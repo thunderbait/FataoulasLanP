@@ -21,4 +21,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
+Route::get('/restaurants', 'RestaurantController@index')->name('restaurant.index');
+
+Auth::routes();
+
 Route::get('/home', 'HomeController@index')->name('home');
